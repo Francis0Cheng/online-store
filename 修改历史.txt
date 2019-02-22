@@ -1,0 +1,117 @@
+C:\Users\chenghuan\Desktop\online-store\src\views\list\current-loc\current-loc.vue
+
+删除template下
+ <div class="current-loc">
+        <div class="breadcrumbs cle">
+          <div class="menus">
+            <template v-for="(item,index) in curLoc">
+                <router-link :to="{name: 'index'}" v-if="index===0">{{item.name}}</router-link>
+                <router-link :to="{name: 'list', params:{id: item.id}}" v-else>{{item.name}}</router-link>
+                <!-- <a @click="changeMenu(item.id)">{{item.name}}</a> -->
+                <code v-if="index!==curLoc.length-1">&gt;</code>
+            </template>
+            
+            <!-- <a href="http://sx.web51.youxueshop.com/category.php?id=2">生鲜食品</a>
+            <code>&gt;</code>
+            <a href="http://sx.web51.youxueshop.com/category.php?id=19">根茎类</a>
+            <code>&gt;</code>
+            新鲜水果甜蜜香脆单果约800克 -->
+          </div>
+      </div>
+    
+    </div>
+
+
+
+
+
+C:\Users\chenghuan\Desktop\online-store\src\views\head\head.vue
+
+删除J_subView类
+
+
+<div class="J_subView" >
+                                      <div v-for="list in item.sub_cat">
+                                        <dl>
+                                          <dt>
+                                            <router-link :to="'/app/home/list/'+list.id">{{list.name}}</router-link>
+                                          </dt>
+
+                                          <dd>
+                                            <router-link  v-for="childrenList in list.sub_cat" :key="childrenList.id" :to="'/app/home/list/'+childrenList.id">{{childrenList.name}}</router-link>
+                                          </dd>
+                                        </dl>
+                                        <div class="clear"></div>
+                                      </div>
+                                    </div>
+
+
+
+C:\Users\chenghuan\Desktop\online-store\src\views\index\new.vue
+删除 newopro-l
+
+<div class="newopro-l fl">
+          <a href=""><img src="../../static/images/new/xinpin.jpg" width="224" height="478"></a>
+        </div>
+
+
+
+C:\Users\chenghuan\Desktop\online-store\src\components\common\current-loc\current-loc.vue
+
+current-loc类
+
+  <div class="current-loc">
+        <div class="breadcrumbs cle">
+          <div class="menus">
+            <a href="http://sx.web51.youxueshop.com/">首页</a>
+            <code>&gt;</code>
+            <a href="http://sx.web51.youxueshop.com/category.php?id=2">生鲜食品</a>
+            <code>&gt;</code>
+            <a href="http://sx.web51.youxueshop.com/category.php?id=19">根茎类</a>
+            <code>&gt;</code>
+            新鲜水果甜蜜香脆单果约800克
+          </div>
+      </div>
+    
+    </div>
+
+
+
+    C:\Users\chenghuan\Desktop\online-store\src\views\productDetail\current-loc\current-loc.vue
+    删除current-loc
+
+    <div class="current-loc">
+        <div class="breadcrumbs cle z-detail-box">
+          <div class="menus">
+            <a href="http://sx.web51.youxueshop.com/">首页</a>
+            <code>&gt;</code>
+            <a href="http://sx.web51.youxueshop.com/category.php?id=2">生鲜食品</a>
+            <code>&gt;</code>
+            <a href="http://sx.web51.youxueshop.com/category.php?id=19">根茎类</a>
+            <code>&gt;</code>
+            新鲜水果甜蜜香脆单果约800克
+          </div>
+      </div>
+    
+    </div>
+
+
+
+C:\Users\chenghuan\Desktop\online-store\src\views\cart\cart.vue
+删除添加地址
+    <div class="extr">
+          <div class="address">
+            <p class="title">配送地址</p>
+            <ul>
+              <li class="add" @click="addAddr">
+                <router-link :to="'/app/home/member/receive'" target = _blank>
+                  +
+                  点击添加地址</router-link>
+              </li>
+              <li v-for="item in addrInfo" :class="{'addressActive':addressActive==item.id}" @click="selectAddr(item.id)">
+                <p class="item">地址：{{item.province}} {{item.city}} {{item.district}} {{item.address}}</p>
+                <p class="item">电话：{{item.signer_mobile}}</p>
+                <p class="item">姓名：{{item.signer_name}}</p>
+              </li>
+            </ul>
+          </div>

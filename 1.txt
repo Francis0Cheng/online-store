@@ -1,0 +1,26 @@
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Connection: keep-alive
+Content-Length: 231
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: Hm_lvt_16a1651743c2c534390677a81cb63c03=1550559500; clientlanguage=zh_CN; Hm_lvt_49c75c87715bf9dcae34bb8f5e067024=1550559306,1550572768,1550633274; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; BL_D_PROV=; BL_T_PROV=; JSESSIONID=81CF73B4E9C20EB147B756B681E76701; Hm_lpvt_49c75c87715bf9dcae34bb8f5e067024=1550640709
+Host: www.hs.net
+Origin: https://www.hs.net
+Referer: https://www.hs.net/market.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Connection: keep-alive
+Content-Length: 231
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cookie: Hm_lvt_16a1651743c2c534390677a81cb63c03=1550559500; clientlanguage=zh_CN; Hm_lvt_49c75c87715bf9dcae34bb8f5e067024=1550559306,1550572768,1550633274; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; BL_D_PROV=; BL_T_PROV=; JSESSIONID=81CF73B4E9C20EB147B756B681E76701; Hm_lpvt_49c75c87715bf9dcae34bb8f5e067024=1550640709
+Host: www.hs.net
+Origin: https://www.hs.net
+Referer: https://www.hs.net/market.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36
+X-Requested-With: XMLHttpRequest
