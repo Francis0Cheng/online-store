@@ -673,3 +673,192 @@ Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
     chunk    {[1m[33m0[39m[22m} [1m[32mindex.html[39m[22m 541 kB[1m[33m [entry][39m[22m
          + 4 hidden modules
 webpack: Compiled successfully.
+webpack: Compiling...
+  0% compiling 10% building modules 0/1 modules 1 active ...views/productDetail/productDetail.vue                                          70% building modules 1/1 modules 0 active 40% building modules 1/2 modules 1 active ...views/productDetail/productDetail.vue 30% building modules 1/3 modules 2 active ...views/productDetail/productDetail.vue 25% building modules 1/4 modules 3 active ...views/productDetail/productDetail.vue 40% building modules 2/4 modules 2 active ...views/productDetail/productDetail.vue 54% building modules 3/4 modules 1 active ...views/productDetail/productDetail.vue                                          70% building modules 4/4 modules 0 active                    515ms building modules
+ 71% sealing 8ms sealing
+ 72% optimizing 1ms optimizing
+ 73% basic module optimization 0ms basic module optimization
+ 74% module optimization 4ms module optimization
+ 75% advanced module optimization 1ms advanced module optimization
+ 76% basic chunk optimization 0ms basic chunk optimization
+ 77% chunk optimization 1ms chunk optimization
+ 78% advanced chunk optimization 0ms advanced chunk optimization
+ 79% module and chunk tree optimization 1ms module and chunk tree optimization
+ 80% module reviving 6ms module reviving
+ 81% module order optimization 1ms module order optimization
+ 82% module id optimization 3ms module id optimization
+ 83% chunk reviving 1ms chunk reviving
+ 84% chunk order optimization 1ms chunk order optimization
+ 85% chunk id optimization 2ms chunk id optimization
+ 86% hashing16ms hashing
+ 87% module assets processing 1ms module assets processing
+ 88% chunk assets processing 1ms chunk assets processing
+ 89% additional chunk assets processing 1ms additional chunk assets processing
+ 90% recording 0ms recording
+ 91% additional asset processing 1ms additional asset processing
+ 92% chunk asset optimization 1ms chunk asset optimization
+ 94% asset optimization22ms asset optimization
+ 95% emitting 7ms emitting
+Hash: [1md02223d4e59a76feb3a3[39m[22m
+Version: webpack [1m2.7.0[39m[22m
+Time: [1m625[39m[22mms
+chunk    {[1m[33m0[39m[22m} [1m[32mindex.d02223d4e59a76feb3a3.entry.js, index.d02223d4e59a76feb3a3.entry.js.map[39m[22m (index) 2.65 MB[1m[33m [entry][39m[22m
+   [22] [1m./~/css-loader?sourceMap!./~/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-1145134b","scoped":false,"hasInlineConfig":false}!./~/vue-loader/lib/selector.js?type=styles&index=0!./src/views/productDetail/productDetail.vue[39m[22m 60.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:0ms building:0ms dependencies:[1m67ms[39m[22m = [1m67ms[39m[22m
+  [129] [1m./~/babel-loader/lib!./~/vue-loader/lib/selector.js?type=script&index=0!./src/views/productDetail/productDetail.vue[39m[22m 4.58 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:2ms building:0ms dependencies:[1m[32m98ms[39m[22m = [1m[32m100ms[39m[22m
+  [219] [1m./src/views/productDetail/productDetail.vue[39m[22m 1.84 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:0ms building:0ms dependencies:[1m[31m2428ms[39m[22m = [1m[31m2428ms[39m[22m
+  [224] [1m./~/vue-loader/lib/template-compiler?{"id":"data-v-1145134b","hasScoped":false}!./~/vue-loader/lib/selector.js?type=template&index=0!./src/views/productDetail/productDetail.vue[39m[22m 7.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:3ms building:[1m[33m200ms[39m[22m dependencies:3ms = [1m[33m206ms[39m[22m
+  [297] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:2ms = 2ms
+     + 295 hidden modules
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+    chunk    {[1m[33m0[39m[22m} [1m[32mindex.html[39m[22m 541 kB[1m[33m [entry][39m[22m
+         + 4 hidden modules
+webpack: Compiled successfully.
+webpack: Compiling...
+  0% compiling 10% building modules 0/1 modules 1 active ...views/productDetail/productDetail.vue                                          25% building modules 1/1 modules 0 active                     29ms building modules
+ 71% sealing 6ms sealing
+ 72% optimizing 0ms optimizing
+ 73% basic module optimization 1ms basic module optimization
+ 74% module optimization 3ms module optimization
+ 75% advanced module optimization 0ms advanced module optimization
+ 76% basic chunk optimization 0ms basic chunk optimization
+ 77% chunk optimization 1ms chunk optimization
+ 78% advanced chunk optimization 0ms advanced chunk optimization
+ 79% module and chunk tree optimization 1ms module and chunk tree optimization
+ 80% module reviving 8ms module reviving
+ 81% module order optimization 1ms module order optimization
+ 82% module id optimization 2ms module id optimization
+ 83% chunk reviving 1ms chunk reviving
+ 84% chunk order optimization 0ms chunk order optimization
+ 85% chunk id optimization 2ms chunk id optimization
+ 86% hashing12ms hashing
+ 87% module assets processing 1ms module assets processing
+ 88% chunk assets processing54ms chunk assets processing
+ 89% additional chunk assets processing16ms additional chunk assets processing
+ 90% recording 1ms recording
+ 91% additional asset processing 0ms additional asset processing
+ 92% chunk asset optimization1189ms chunk asset optimization
+ 94% asset optimization131ms asset optimization
+ 95% emitting91ms emitting
+Hash: [1m858cf5c07ac85f485c28[39m[22m
+Version: webpack [1m2.7.0[39m[22m
+Time: [1m1558[39m[22mms
+                                   [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+     [1m[33mindex.858cf5c07ac85f485c28.entry.js[39m[22m    [1m[33m2.57 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+    [1m[32m0.d02223d4e59a76feb3a3.hot-update.js[39m[22m    72.5 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+    [1m[32md02223d4e59a76feb3a3.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+ [1m[32mindex.858cf5c07ac85f485c28.entry.js.map[39m[22m    3.46 MB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[1m[32m0.d02223d4e59a76feb3a3.hot-update.js.map[39m[22m     193 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+                              [1m[32mindex.html[39m[22m  227 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+chunk    {[1m[33m0[39m[22m} [1m[32mindex.858cf5c07ac85f485c28.entry.js, 0.d02223d4e59a76feb3a3.hot-update.js, index.858cf5c07ac85f485c28.entry.js.map, 0.d02223d4e59a76feb3a3.hot-update.js.map[39m[22m (index) 2.54 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+  [219] [1m./src/views/productDetail/productDetail.vue[39m[22m 180 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+        [] -> factory:1ms building:26ms dependencies:[1m[31m2428ms[39m[22m = [1m[31m2455ms[39m[22m
+  [297] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:1ms = 1ms
+     + 277 hidden modules
+
+[1m[31mERROR in ./src/views/productDetail/productDetail.vue
+Module build failed: Error: ENOENT: no such file or directory, open '/root/mxshop/online-store/src/views/productDetail/productDetail.vue'
+    at Error (native)
+ @ ./src/router/index.js 37:0-65
+ @ ./src/main.js
+ @ multi (webpack)-dev-server/client?http://0.0.0.0:80 webpack/hot/dev-server ./src/main.js[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+    chunk    {[1m[33m0[39m[22m} [1m[32mindex.html[39m[22m 541 kB[1m[33m [entry][39m[22m
+         + 4 hidden modules
+webpack: Failed to compile.
+webpack: Compiling...
+  0% compiling 10% building modules 0/1 modules 1 active ...views/productDetail/productDetail.vue                                          70% building modules 1/1 modules 0 active 40% building modules 1/2 modules 1 active ...views/productDetail/productDetail.vue 30% building modules 1/3 modules 2 active ...views/productDetail/productDetail.vue 25% building modules 1/4 modules 3 active ...views/productDetail/productDetail.vue 40% building modules 2/4 modules 2 active ...views/productDetail/productDetail.vue 54% building modules 3/4 modules 1 active ...views/productDetail/productDetail.vue 46% building modules 3/5 modules 2 active ...uctDetail/current-loc/current-loc.vue 57% building modules 4/5 modules 1 active ...uctDetail/current-loc/current-loc.vue 50% building modules 4/6 modules 2 active ...roductDetail/images/footprint-arr.png 44% building modules 4/7 modules 3 active ...ctDetail/images/loading_nala.gif?0428 52% building modules 5/7 modules 2 active ...ctDetail/images/loading_nala.gif?0428 61% building modules 6/7 modules 1 active ...ctDetail/images/loading_nala.gif?0428 54% building modules 6/8 modules 2 active ...uctDetail/current-loc/current-loc.vue 50% building modules 6/9 modules 3 active ...uctDetail/current-loc/current-loc.vue 46% building modules 6/10 modules 4 active ...uctDetail/current-loc/current-loc.vue 52% building modules 7/10 modules 3 active ...uctDetail/current-loc/current-loc.vue 57% building modules 8/10 modules 2 active ...uctDetail/current-loc/current-loc.vue 64% building modules 9/10 modules 1 active ...uctDetail/current-loc/current-loc.vue 59% building modules 9/11 modules 2 active ...odules/webpack/buildin/amd-options.js 64% building modules 10/11 modules 1 active ...uctDetail/current-loc/current-loc.vue                                          70% building modules 11/11 modules 0 active                     3403ms building modules
+ 71% sealing 4ms sealing
+ 72% optimizing 0ms optimizing
+ 73% basic module optimization 1ms basic module optimization
+ 74% module optimization 3ms module optimization
+ 75% advanced module optimization 1ms advanced module optimization
+ 76% basic chunk optimization 0ms basic chunk optimization
+ 77% chunk optimization 0ms chunk optimization
+ 78% advanced chunk optimization 0ms advanced chunk optimization
+ 79% module and chunk tree optimization 1ms module and chunk tree optimization
+ 80% module reviving 4ms module reviving
+ 81% module order optimization 1ms module order optimization
+ 82% module id optimization 8ms module id optimization
+ 83% chunk reviving 1ms chunk reviving
+ 84% chunk order optimization 1ms chunk order optimization
+ 85% chunk id optimization 1ms chunk id optimization
+ 86% hashing15ms hashing
+ 87% module assets processing 0ms module assets processing
+ 88% chunk assets processing51ms chunk assets processing
+ 89% additional chunk assets processing16ms additional chunk assets processing
+ 90% recording 1ms recording
+ 91% additional asset processing 0ms additional asset processing
+ 92% chunk asset optimization2023ms chunk asset optimization
+ 94% asset optimization70ms asset optimization
+ 95% emittingwebpack: wait until bundle finished: /
+87ms emitting
+Hash: [1md47a0d637d84a543f3a2[39m[22m
+Version: webpack [1m2.7.0[39m[22m
+Time: [1m5704[39m[22mms
+                                   [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+     [1m[33mindex.d47a0d637d84a543f3a2.entry.js[39m[22m    [1m[33m3.26 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+    [1m[33m0.858cf5c07ac85f485c28.hot-update.js[39m[22m     [1m[33m757 kB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+    [1m[32m858cf5c07ac85f485c28.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+ [1m[32mindex.d47a0d637d84a543f3a2.entry.js.map[39m[22m    4.37 MB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[1m[32m0.858cf5c07ac85f485c28.hot-update.js.map[39m[22m    1.11 MB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+                              [1m[32mindex.html[39m[22m  227 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+chunk    {[1m[33m0[39m[22m} [1m[32mindex.d47a0d637d84a543f3a2.entry.js, 0.858cf5c07ac85f485c28.hot-update.js, index.d47a0d637d84a543f3a2.entry.js.map, 0.858cf5c07ac85f485c28.hot-update.js.map[39m[22m (index) 3.23 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+   [22] [1m./~/css-loader?sourceMap!./~/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-1145134b","scoped":false,"hasInlineConfig":false}!./~/vue-loader/lib/selector.js?type=styles&index=0!./src/views/productDetail/productDetail.vue[39m[22m 364 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:0ms building:[1m[31m3098ms[39m[22m dependencies:67ms = [1m[31m3165ms[39m[22m
+   [30] [1m./~/css-loader?sourceMap!./~/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-5713d598","scoped":false,"hasInlineConfig":false}!./~/sass-loader/lib/loader.js!./~/vue-loader/lib/selector.js?type=styles&index=0!./src/views/productDetail/current-loc/current-loc.vue[39m[22m 2.47 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:0ms building:168ms dependencies:30ms = 198ms
+   [65] [1m./src/views/productDetail/images/footprint-arr.png[39m[22m 997 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:1ms building:5ms = 6ms
+  [126] [1m./~/babel-loader/lib!./~/vue-loader/lib/selector.js?type=script&index=0!./src/views/productDetail/current-loc/current-loc.vue[39m[22m 209 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:2ms building:9ms = 11ms
+  [129] [1m./~/babel-loader/lib!./~/vue-loader/lib/selector.js?type=script&index=0!./src/views/productDetail/productDetail.vue[39m[22m 278 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:3ms building:0ms dependencies:320ms = 323ms
+  [178] [1m./src/views/productDetail/images/loading_nala.gif?0428[39m[22m 4.37 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:1ms building:73ms = 74ms
+  [216] [1m./src/views/productDetail/current-loc/current-loc.vue[39m[22m 1.88 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:58ms building:0ms dependencies:3ms = 61ms
+  [219] [1m./src/views/productDetail/productDetail.vue[39m[22m 1.84 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:0ms building:0ms dependencies:[1m[33m2428ms[39m[22m = [1m[33m2428ms[39m[22m
+  [224] [1m./~/vue-loader/lib/template-compiler?{"id":"data-v-1145134b","hasScoped":false}!./~/vue-loader/lib/selector.js?type=template&index=0!./src/views/productDetail/productDetail.vue[39m[22m 7.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:5ms building:[1m[31m2935ms[39m[22m dependencies:6ms = [1m[31m2946ms[39m[22m
+  [233] [1m./~/vue-loader/lib/template-compiler?{"id":"data-v-5713d598","hasScoped":false}!./~/vue-loader/lib/selector.js?type=template&index=0!./src/views/productDetail/current-loc/current-loc.vue[39m[22m 333 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:3ms building:11ms dependencies:1ms = 15ms
+  [297] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:1ms = 1ms
+  [300] [1m(webpack)/buildin/amd-options.js[39m[22m 82 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        [] -> factory:317ms building:30ms = 347ms
+     + 289 hidden modules
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+    chunk    {[1m[33m0[39m[22m} [1m[32mindex.html[39m[22m 541 kB[1m[33m [entry][39m[22m
+         + 4 hidden modules
+webpack: Compiled successfully.
+Killed
+
+npm ERR! Linux 4.4.0-117-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "run" "dev"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! webpack-test@1.0.0 dev: `webpack-dev-server --inline --progress --profile --colors`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the webpack-test@1.0.0 dev script 'webpack-dev-server --inline --progress --profile --colors'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the webpack-test package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     webpack-dev-server --inline --progress --profile --colors
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs webpack-test
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls webpack-test
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /root/mxshop/online-store/npm-debug.log
